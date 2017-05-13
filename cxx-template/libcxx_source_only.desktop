@@ -1,0 +1,24 @@
+[General]
+Name=Cxx Source
+Name[en_GB]=Cxx Source
+Name[fr]=Cxx Source
+Name[x-test]=Cxx xxSourcexx
+Comment=Source only Cxx Class
+Comment[en_GB]=Source only Cxx Class
+Comment[fr]=Uniquement la source de la classe Cxx
+Comment[x-test]=xxSource Cxx Classxx
+Category=Cxx/Basic
+Language=Cxx
+Language[fr]=Cxx
+Language[x-test]=xxCxxxx
+Type=Class
+Files=Implementation
+
+
+[Implementation]
+Name=Implementation
+Name[en_GB]=Implementation
+Name[fr]=Implémentation
+Name[x-test]=xxImplementationxx
+File=libcxx_class.cxx
+OutputFile={{ name }}.cxx

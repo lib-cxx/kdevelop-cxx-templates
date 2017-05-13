@@ -1,0 +1,23 @@
+[General]
+Name=Cxx Header
+Name[en_GB]=Cxx Header
+Name[fr]=Cxx Header
+Name[x-test]=Cxx xxHeaderxx
+Comment=Header only Cxx Class
+Comment[en_GB]=Header only Cxx Class
+Comment[fr]=Uniquement le header de la classe Cxx
+Comment[x-test]=xxHeader Cxx Classxx
+Category=Cxx/Basic
+Language=Cxx
+Language[fr]=Cxx
+Language[x-test]=xxCxxxx
+Type=Class
+Files=Header
+
+[Header]
+Name=Header
+Name[en_GB]=Header
+Name[fr]=En-tête
+Name[x-test]=xxHeaderxx
+File=libcxx_class.hxx
+OutputFile={{ name }}.hxx
