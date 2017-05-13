@@ -1,0 +1,24 @@
+[General]
+Name=Cxx Template
+Name[en_GB]=Cxx Template
+Name[fr]=Cxx Template
+Name[x-test]=Cxx xxTemplatexx
+Comment=Template only Cxx Class
+Comment[en_GB]=Template only Cxx Class
+Comment[fr]=Uniquement le template de la classe Cxx
+Comment[x-test]=Template Cxx Classxx
+Category=Cxx/Basic
+Language=Cxx
+Language[fr]=Cxx
+Language[x-test]=xxCxxxx
+Type=Class
+Files=Template
+
+
+[Template]
+Name=Template
+Name[en_GB]=Template
+Name[fr]=Template
+Name[x-test]=xxTemplatexx
+File=libcxx_class.cxx
+OutputFile={{ name }}.txx
