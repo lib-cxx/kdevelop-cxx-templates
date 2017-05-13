@@ -1,0 +1,2 @@
+/// \brief Class {{ name }}
+class {{ name }}{% if base_classes %} :{% for base in base_clasess %} {{ base.inheritanceType }} {{ base.baseName }}{% if not forloop.last %}, {% endif %}{% endfor %}{% endif %}
